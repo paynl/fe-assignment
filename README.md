@@ -9,7 +9,8 @@ pages:
 - A confirmation page shown after saving
 
 Focus on something you can demo to a product owner and one front-end
-colleague.
+colleague. Feel free to move or add any files you need to make this work.
+You can also install packages as you see fit.
 
 ## Expectations
 
