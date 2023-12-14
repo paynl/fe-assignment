@@ -1,28 +1,68 @@
-# Frontend Assignment
+# Front-end assignment
 
-With the `/data/merchants.json` (provided in this repo), create the following
-pages:
+In this assignment, you'll be developing key components of a merchant management system,
+which is a crucial part of our larger admin panel. Your work will directly impact how our
+product managers and admins interact with merchant data. You're tasked with creating a
+user interface for a merchant management system.
 
-- An overview of merchants with ten merchants per page
-- An edit form for that merchant
-  - Error handling on this form
-- A confirmation page shown after saving
+Create a small app with the following criteria:
 
-Focus on something you can demo to a product owner and one front-end
+- As a user, I want to see an overview of merchants so that I can quickly understand how many partners we have.
+  - Display at least the name, an image, description, website, email and the time it was added
+- As a user, I need to edit merchant details to keep information up to date.
+- As a user, I want clear feedback when I make errors in forms to correct them easily and when saving was successful
+
+Consider the layout and design for an optimal user experience. How would you make the
+interface intuitive and user-friendly?
+
+Focus on something you can demo to a product owner and a front-end
 colleague. Feel free to move or add any files you need to make this work.
-You can also install packages as you see fit.
+You can also install packages as you see fit, or start from scratch with tools of your choosing
+(as long as you use TypeScript and React).
 
 ## Expectations
 
-- Using this codebase is advised, but not required
-- Use your own creativity on the design
-- It's responsive with a mobile first mindset
-- Use all properties provided in the json file
-- Try and make it as accessible as you can (WCAG)
+- Ensure your pages are responsive and provide a consistent experience across different devices
+- Consider the performance of your application. How would you ensure it loads quickly and runs smoothly?
+- Make sure your application is accessible, considering users with different abilities
+- Include unit and/or integration tests to ensure the reliability of your code
+- Provide a README file explaining your architecture choices, how to run your project, and any other relevant information
 
 TIP: In the `/extras` folder you can find some fonts and colors.
 
-## Available Scripts
+## Quality standards
+
+We assess your coding skills based on your ability to adhere to industry-standard
+conventions and best practices. Key factors we consider include:
+
+- **Code readability:** Your code should be easily understandable. Organized, well-commented,
+and clean code is what we look for.
+- **Design pattern utilization:** Appropriate use of design patterns demonstrates your grasp
+of coding best practices.
+- **Code structure and linting:** To ensure your code is well-structured and consistent, we
+recommend using a linter. This helps in maintaining code quality and spotting potential
+errors.
+
+Additionally, testing is not just a practice but a cornerstone of our development
+process. We expect you to provide tests for your solution, showcasing your
+commitment to reliable and maintainable code.
+
+## Submission requirements
+
+Please provide the following in your submission:
+
+- **Source Code:** Share your source code either as a zipped file or through a private GitHub
+or Gitlab repository link.
+- **README Documentation:** Include a README file that:
+  - Briefly outlines the general concept of your project.
+  - Describes the architecture and major components of your application.
+- **Assumptions:** Clearly articulate any assumptions you've made during the development process.
+- **Execution instructions:** Provide detailed steps on how to run your application, ensuring they are straightforward and clear.
+- **Testing and linting guide:** Include instructions for executing your unit tests and running the linter. This should detail any specific commands or steps necessary for these processes.
+
+Your thorough and detailed submission will enable us to effectively evaluate your technical skills and approach to software development. We're looking forward to seeing your creative solutions and thoughtful code structure!
+
+## Available scripts
 
 In the project directory, you can run:
 
